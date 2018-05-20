@@ -26,7 +26,7 @@
 #include <MaxMatrix.h>
 #include <avr/pgmspace.h>
 
-PROGMEM prog_uchar CH[] = {
+PROGMEM const unsigned char CH[] = {
 3, 8, B00000000, B00000000, B00000000, B00000000, B00000000, // space
 1, 8, B01011111, B00000000, B00000000, B00000000, B00000000, // !
 3, 8, B00000011, B00000000, B00000011, B00000000, B00000000, // "
